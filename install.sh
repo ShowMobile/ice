@@ -12,7 +12,7 @@ if [ -f /etc/redhat-release ]; then
 else
    [ -f /etc/debian-release ];
     echo "Installing debian packages"
-    sudo apt-get -y install git openjdk-6-jdk wget unzip
+    sudo apt-get -y install git openjdk-7-jdk wget unzip
 fi
 
 INSTALL_DIR=$(pwd)
